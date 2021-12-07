@@ -26,7 +26,7 @@ Repositório para o Live Coding do dia 08/12/2021
 - Inserir o código contido [aqui](src/email.py)
 - Add trigger -> SQS -> Selecionar a queue SQS criada
 
-#### Configurar permissões da função lambda para o SNS q e o SQS
+#### Configurar permissões da função lambda para o SNS e o SQS
 
 - Acessar a função criada -> Configuration -> Permissions -> Selecionar a role criada
 - No console do AWS IAM -> Attach policies [AmazonSQSFullAccess, AmasonSNSFullAccess]
